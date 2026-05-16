@@ -1,5 +1,27 @@
 # Changelog
 
+## [4.9.0](https://github.com/mvanhorn/cli-printing-press/compare/v4.8.0...v4.9.0) (2026-05-16)
+
+
+### Features
+
+* **cli:** catalog auth_env_vars declares canonical credential env vars ([#1508](https://github.com/mvanhorn/cli-printing-press/issues/1508)) ([fe4a5ec](https://github.com/mvanhorn/cli-printing-press/commit/fe4a5ec38c5e379c1da491725b3e5b6675e3f094))
+* **cli:** expose PRINTING_PRESS_DOGFOOD env signal for long-running commands ([#1493](https://github.com/mvanhorn/cli-printing-press/issues/1493)) ([96fca08](https://github.com/mvanhorn/cli-printing-press/commit/96fca0815d80417d8a3b046ba20e822aa7a792d6))
+
+
+### Bug Fixes
+
+* **cli:** always emit boolean body fields, no zero-guard ([#1494](https://github.com/mvanhorn/cli-printing-press/issues/1494)) ([9d3050b](https://github.com/mvanhorn/cli-printing-press/commit/9d3050b5a3a356eaceb0b9cb157bcf9dd69aa1e6))
+* **cli:** apply Bearer prefix in composed and cookie AuthHeader paths ([#1500](https://github.com/mvanhorn/cli-printing-press/issues/1500)) ([ca4898a](https://github.com/mvanhorn/cli-printing-press/commit/ca4898a396731026e1f9e33497d966ebf9d2165d))
+* **cli:** exempt vendor OpenAPI/Swagger source under .manuscripts from PII scan ([#1496](https://github.com/mvanhorn/cli-printing-press/issues/1496)) ([dc0651a](https://github.com/mvanhorn/cli-printing-press/commit/dc0651ab8bf2cb1f9060b14a31de836df7f91ef3))
+* **cli:** preserve body/content payload on single-object compact path ([#1509](https://github.com/mvanhorn/cli-printing-press/issues/1509)) ([c7e1b82](https://github.com/mvanhorn/cli-printing-press/commit/c7e1b82b85ef47df1a011100fcb31a42a095b7ac))
+* **cli:** refresh auth on redirects via CheckRedirect ([#1497](https://github.com/mvanhorn/cli-printing-press/issues/1497)) ([f3f7043](https://github.com/mvanhorn/cli-printing-press/commit/f3f7043558971d098960ee3f66c3548b7d0b4b15))
+* **cli:** route promoted-command file stem through safeResourceFileStem ([#1489](https://github.com/mvanhorn/cli-printing-press/issues/1489)) ([#1506](https://github.com/mvanhorn/cli-printing-press/issues/1506)) ([bf7f346](https://github.com/mvanhorn/cli-printing-press/commit/bf7f346537502883bed2afede9db9d7bac06d915))
+* **cli:** synthesize undeclared path placeholders in OpenAPI parser ([#1510](https://github.com/mvanhorn/cli-printing-press/issues/1510)) ([bf9014d](https://github.com/mvanhorn/cli-printing-press/commit/bf9014d45ade16baacab07829c784448d19073c6))
+* **scorer:** resolve binary at build/stage/bin/ before cliDir ([#1150](https://github.com/mvanhorn/cli-printing-press/issues/1150)) ([#1412](https://github.com/mvanhorn/cli-printing-press/issues/1412)) ([2abbfec](https://github.com/mvanhorn/cli-printing-press/commit/2abbfec04826d9763877490df1612d433f2debce))
+* **skills:** drop cli-skills mirror regen from publish flow ([#1502](https://github.com/mvanhorn/cli-printing-press/issues/1502)) ([f64e991](https://github.com/mvanhorn/cli-printing-press/commit/f64e9913ff259760300b76c01db2e6f1b4ecd4e9))
+* **skills:** surface novel-feature hand-code scope at Phase Gate 1.5 ([#1501](https://github.com/mvanhorn/cli-printing-press/issues/1501)) ([793d5b2](https://github.com/mvanhorn/cli-printing-press/commit/793d5b272608d95ff65a4c83d669be2ab1e0ba10))
+
 ## [4.8.0](https://github.com/mvanhorn/cli-printing-press/compare/v4.7.0...v4.8.0) (2026-05-16)
 
 
